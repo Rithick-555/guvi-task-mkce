@@ -9,8 +9,7 @@ $(document).ready(function () {
                 string += `
                 <span class="font-weight-bold">Username: </span>${value['user_name']}<br><br>
                 <span class="font-weight-bold">Email: </span>${value['user_email']}<br><br>
-                <span class="font-weight-bold">LinkedIn: </span>${value['user_linkedin']}<br><br>
-                <span class="font-weight-bold">DOB: </span>${value['user_dob']}`;
+                <span class="font-weight-bold">LinkedIn: </span>${value['user_linkedin']}`;
 
             });
             $('#Append').append(string);
