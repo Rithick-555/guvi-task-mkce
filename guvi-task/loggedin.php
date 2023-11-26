@@ -63,18 +63,7 @@ session_start();
                                                 <label for="Linkedin">LinkedIn-URL</label>
                                                 <input type="text" name="user_linkedin" id="user_linkedin" class="form-control form-control-sm" value='<?php echo $row['user_linkedin'] ?>'>
                                             </div>
-                                            <div class="login-row row no-margin">
-                                                <label for="Linkedin">Date of Birth</label>
-                                                <input type="text" name="user_linkedin" id="user_linkedin" class="form-control form-control-sm" value='<?php echo $row['user_linkedin'] ?>'>
-                                            </div>
-                                            <div class="login-row row no-margin">
-                                                <label for="Linkedin">Mobile</label>
-                                                <input type="text" name="user_linkedin" id="user_linkedin" class="form-control form-control-sm" value='<?php echo $row['user_linkedin'] ?>'>
-                                            </div>
-                                            <div class="login-row row no-margin">
-                                                <label for="Linkedin">Age</label>
-                                                <input type="text" name="user_linkedin" id="user_linkedin" class="form-control form-control-sm" value='<?php echo $row['user_linkedin'] ?>'>
-                                            </div>
+                                            
                                             <div class="login-row btnroo row no-margin">
                                                 <button class="btn btn-primary btn-sm" name="create_acc" id="btn-submit" value="submit">Update / View profile</button>
                                             </div>
